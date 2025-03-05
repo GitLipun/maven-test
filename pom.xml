@@ -17,7 +17,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
      <sonar.host.url>http://localhost:9000</sonar.host.url>  <!-- Your SonarQube instance URL -->
-    <sonar.login>sqp_8a28b555d08f7f973506ab1e184500caebeb0341</sonar.login>  <!-- SonarQube token generated earlier -->
+    <sonar.login>sqp_2e6b2ced0ae1959c89f3b43dcddb30884f6c914d</sonar.login>  <!-- SonarQube token generated earlier -->
   </properties>
   <dependencies>
     <dependency>
