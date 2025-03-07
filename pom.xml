@@ -6,7 +6,7 @@
 
   <groupId>com.idream</groupId>
   <artifactId>app</artifactId>
-  <version>1.0</version>
+  <version>1.5</version>
 
   <name>app</name>
   <!-- FIXME change it to the project's website -->
@@ -77,5 +77,29 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <distributionManagement>
+<repository>
+<id>repoR</id>
+<name>repoR</name>
+<url>http://13.232.154.234:8081/repository/maven-releases/</url>
+</repository>
+<snapshotRepository>
+<id>repo</id>
+<name>repo</name>
+<url>http://13.232.154.234:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
   </build>
+<distributionManagement>
+<repository>
+<id>maven-releases</id>
+<name>maven-releases</name>
+<url>http://52.66.179.54:8081/repository/maven-releases/</url>
+</repository>
+<snapshotRepository>
+<id>maven-snapshots</id>
+<name>maven-snapshots</name>
+<url>http://52.66.179.54:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
 </project>
