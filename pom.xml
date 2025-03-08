@@ -76,19 +76,7 @@
             <version>3.9.1.2184</version> <!-- Check for latest version -->
         </plugin>
       </plugins>
-    </pluginManagement>
-    <distributionManagement>
-<repository>
-<id>repoR</id>
-<name>repoR</name>
-<url>http://13.232.154.234:8081/repository/maven-releases/</url>
-</repository>
-<snapshotRepository>
-<id>repo</id>
-<name>repo</name>
-<url>http://13.232.154.234:8081/repository/maven-snapshots/</url>
-</snapshotRepository>
-</distributionManagement>
+    </pluginManagement>   
   </build>
 <distributionManagement>
 <repository>
